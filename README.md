@@ -4,7 +4,7 @@ A Python script to batch check Scimago Journal Ranks.
 
 ## Description
 
-This script `scimago_scraper.py` processes a list of journals from `journals.txt` and outputs the results to `scimago_results.csv`.
+This script `scimago_batch_checker.py` processes a list of journals from `journals.txt` and outputs the results to `scimago_results.csv`.
 
 ## Usage
 
@@ -12,6 +12,6 @@ This script `scimago_scraper.py` processes a list of journals from `journals.txt
 2. Place the list of journals in `journals.txt`.
 3. Run the script:
    ```bash
-   python scimago_scraper.py
+   python scimago_batch_checker.py
    ```
 4. The results will be saved in `scimago_results.csv`.
